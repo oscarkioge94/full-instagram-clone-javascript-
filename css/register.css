@@ -1,0 +1,124 @@
+.section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+.left {
+  background-image: url("/phone.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: center;
+  height: 100vh;
+  width: 80vh;
+  margin-left: 37vh;
+  margin-top: 3vh;
+}
+.left img {
+  position: absolute;
+  left: 67vh;
+  top: 23vh;
+  animation-name: image;
+  animation-duration: 2s;
+  transition: ease-in-out;
+}
+
+.right__up {
+  width: 50vh;
+  position: absolute;
+  left: 110vh;
+  top: 10vh;
+  height: 55vh;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(219, 213, 213);
+}
+.right__down {
+  border: 1px solid rgb(219, 213, 213);
+  width: 50vh;
+  position: absolute;
+  left: 110vh;
+  top: 68vh;
+  height: 10vh;
+  display: flex;
+
+  flex-direction: column;
+}
+.right img {
+  height: 60px;
+  margin-left: 35px;
+  margin-top: 20px;
+  object-fit: contain;
+  margin-bottom: 30px;
+}
+.right input {
+  border: 1px solid rgb(219, 213, 213);
+  height: 30px;
+  margin-bottom: 6px;
+  margin-left: 40px;
+  width: 250px;
+  border-radius: 2px;
+  outline: none;
+}
+.login {
+  text-decoration: none;
+  color: white;
+  font-family: sans-serif;
+  margin-top: 5px;
+  font-size: 12px;
+  padding: 8px 40px;
+  width: 177px;
+  margin-left: 40px;
+  text-align: center;
+  border-radius: 3px;
+
+  background-color: rgb(64, 93, 230);
+}
+.break {
+  display: flex;
+}
+.break hr:nth-child(1) {
+  width: 100px;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.break hr:nth-child(2) {
+  width: 100px;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.bottom {
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+.bottom img {
+  height: 20px;
+  margin-left: 80px;
+}
+.bottom p {
+  font-family: sans-serif;
+  margin-left: 10px;
+  margin-top: 1px;
+  font-size: 14px;
+  color: #385185;
+}
+.password {
+  margin-left: 100px;
+  color: #262626;
+  font-size: 13px;
+  font-family: sans-serif;
+}
+.signUp {
+  color: #262626;
+  font-size: 14px;
+  font-family: sans-serif;
+  margin-left: 69px;
+  align-items: center;
+}
+.right__down a {
+  text-decoration: none;
+  color: rgba(88, 81, 219);
+  font-weight: 700;
+  margin-left: 5px;
+  font-family: sans-serif;
+}
